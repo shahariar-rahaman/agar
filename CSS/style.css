@@ -1,0 +1,969 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ==================Navbar Start====================== */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: rgba(27, 33, 47, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.top-header {
+    padding: 20px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 50%;
+
+}
+
+.info {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.info p {
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding-right: 17px;
+    margin-right: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info .border {
+    border-right: 0;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: -1px;
+    top: 5px;
+}
+
+#header .bottom-header .navbar .menu-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header .bottom-header .navbar .menu-items ul li {
+
+    position: relative;
+    margin: 0 18px;
+}
+
+#header .bottom-header .navbar .menu-items ul li:first-child {
+    margin-left: 0;
+}
+
+#header .bottom-header .navbar .menu-items ul li i {
+    position: absolute;
+    top: 42px;
+    right: -20px;
+
+}
+
+#header .bottom-header .navbar .menu-items ul li a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    padding: 33px 0;
+    line-height: 28px;
+    transition: all linear 0.4s;
+
+}
+
+#header .bottom-header .navbar .menu-items ul li a:hover {
+    color: #1CB9C8;
+}
+
+#header .bottom-header .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#header .bottom-header .brand .pra1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .bottom-header .brand .pra1 ul li {
+    margin-right: 26px;
+}
+
+#header .bottom-header .brand .pra1 ul li a {
+    color: #fff;
+    transition: all linear 0.4s;
+
+}
+
+#header .bottom-header .brand .pra1 ul li a:hover {
+    color: #1b212f
+}
+
+#header .bottom-header .brand .pra2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+#header .bottom-header .brand .pra2 p {
+    margin-right: 26px;
+    transition: all linear 0.4s;
+
+}
+
+#header .bottom-header .brand .pra2 p:hover {
+    color: #1CB9C8;
+}
+
+#header .bottom-header .brand .pra2 p:last-of-type {
+    margin-right: 0;
+}
+
+/* ==================Navbar End====================== */
+
+/* ==================Banner Start====================== */
+#banner {
+    background: url(../images/1.jpg) no-repeat center / cover;
+    padding-top: 440px;
+    padding-bottom: 230px;
+    position: relative;
+    width: 100%;
+
+}
+
+#banner h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 66px;
+    font-weight: 400;
+    color: #fff;
+    width: 600px;
+}
+
+#banner p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 600px;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+
+#banner a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #1897BD;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#banner .round {
+    width: 115px;
+    height: 115px;
+    border: 1px solid #1CB9C8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 274px;
+    right: 621px;
+}
+
+#banner .round .inner-round1 {
+    width: 105px;
+    height: 105px;
+    border: 1px solid #1CB9C8;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#banner .round .inner-round1 .inner-round2 {
+    width: 95px;
+    height: 95px;
+    background: #1CB9C8;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .round .inner-round1 .inner-round2 i {
+    font-size: 29px;
+    color: #fff;
+}
+
+#banner .banner-shape1 {
+    position: absolute;
+    top: 313px;
+    left: 286px;
+}
+
+#banner .banner-shape2 {
+    position: absolute;
+    top: 376px;
+    right: 337px;
+}
+
+#banner .banner-shape3 {
+    position: absolute;
+    bottom: 72px;
+    left: 728px;
+}
+
+#banner .banner-shape4 {
+    position: absolute;
+    bottom: -5px;
+    left: 281px;
+}
+
+#banner .banner-shape5 {
+    position: absolute;
+    bottom: 124px;
+    right: 202px;
+}
+
+/* ==================Banner End====================== */
+
+/* ==================About Us Start====================== */
+#about {
+    background: url(../images/about-img-bg.png) no-repeat center /cover;
+    margin-top: 150px;
+}
+
+#about .main2 {
+    display: flex;
+}
+
+#about .main2 .about-section {
+    width: 60%;
+}
+
+#about .main2 .about-images {
+    position: relative;
+}
+
+#about .main2 .about-images .image-2 {
+    position: absolute;
+    top: 303px;
+    right: 59px;
+}
+
+#about .main2 .about-images .image-3 {
+    position: absolute;
+    bottom: -86px;
+    left: 268px;
+    z-index: -1;
+}
+
+#about .main2 .about-section .round {
+    width: 115px;
+    height: 115px;
+    border: 1px solid #1CB9C8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 484px;
+    left: 610px;
+}
+
+#about .main2 .about-section .round .inner-round1 {
+    width: 105px;
+    height: 105px;
+    border: 1px solid #1CB9C8;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about .main2 .about-section .round .inner-round1 .inner-round2 {
+    width: 95px;
+    height: 95px;
+    background: #1CB9C8;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .main2 .about-section .round .inner-round1 .inner-round2 i {
+    font-size: 29px;
+    color: #fff;
+}
+
+#about .main2 .about-section2 {
+    width: 40%;
+    position: relative;
+}
+
+#about .main2 .about-section2 .title h3 {
+    text-transform: capitalize;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #188EB2;
+    margin-bottom: 10px;
+}
+
+#about .main2 .about-section2 .title .line {
+    width: 53px;
+    height: 2px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .main2 .about-section2 .title .line .circle {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: white;
+
+
+}
+
+#about .main2 .about-section2 .about-image img {
+    position: absolute;
+    top: 26px;
+    right: -303px;
+}
+
+#about .main2 .about-section2 .pragraph p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+
+}
+
+#about .main2 .about-section2 .pragraph2 p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #505050;
+    margin-top: 35px;
+    width: 477px;
+
+}
+
+#about .main2 .about-section2 .tick {
+    margin-top: 50px;
+}
+
+#about .main2 .about-section2 .tick .double-tick {
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+}
+
+#about .main2 .about-section2 .tick .double-tick .p1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+#about .main2 .about-section2 .tick .double-tick .p2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+#about .main2 .about-section2 .tick .double-tick .p3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+#about .main2 .about-section2 a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #1897BD;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-top: 75px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+/* ==================About Us End====================== */
+
+/* ==================Patners Start====================== */
+
+#patners .title h1 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#patners .title span {
+    color: #1CB9C8;
+    border-bottom: 1px solid #1CB9C8;
+
+}
+
+#patners .images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 58px;
+}
+
+#patners .images img {
+    filter: grayscale(100%);
+    transition: all linear 0.4s;
+}
+
+#patners .images img:hover {
+    filter: grayscale(0);
+}
+
+#patners {
+    margin-top: 48px;
+}
+
+/* ==================Patners End====================== */
+
+/* ==================Service Start====================== */
+#service {
+    background: #f2fbfc;
+    padding: 150px 0;
+    margin-top: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+#service .shape1 {
+    position: absolute;
+    top: 74px;
+    left: -52px;
+}
+
+#service .shape2 {
+    position: absolute;
+    top: 238px;
+    right: 223px;
+    z-index: -1;
+}
+
+#service .shape3 {
+    position: absolute;
+    bottom: 311px;
+    left: 226px;
+}
+
+#service .title h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #188EB2;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#service .title .line {
+    width: 53px;
+    height: 2px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#service .title .circle {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: white;
+}
+
+#service .title h1 {
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 29px;
+    text-align: center;
+}
+
+#service .box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#service .box .item {
+    width: 23%;
+    height: 200px;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 0;
+    transition: all linear 0.4s;
+}
+
+#service .box .item:hover {
+    background: #1897BD;
+    color: #fff;
+
+}
+
+#service .box .item h2 {
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+
+#service .box .item i {
+    background: #1897BD;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    transition: all linear 0.4s;
+}
+
+#service .box .item:hover i {
+    background: #fff;
+    color: black;
+}
+
+#service .button {
+    text-align: center;
+}
+
+#service .button a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #1897BD;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-top: 75px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+/* ==================Service End====================== */
+
+/* ==================Counter Start====================== */
+
+#counter {
+    background: url(../images/counter.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: 75px;
+}
+
+#counter .counter-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#counter .counter-part .counter-items {
+    text-align: center;
+
+}
+
+#counter .counter-part .counter-items h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+
+}
+
+#counter .counter-part .counter-items p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+/* ==================Counter End====================== */
+
+/* ==================Contact Us Start====================== */
+#contact-us {
+    background: url(../images/cta-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 140px 0;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#contact-us .contact-items h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    width: 942px;
+    margin: 0 auto;
+
+}
+
+#contact-us .contact-items a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #1897BD;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-top: 75px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+/* ==================Contact Us End====================== */
+
+/* ==================Choose start====================== */
+#choose{
+    background: url(../images/about-img-bg.png) no-repeat center /cover;
+    padding: 150px 0;
+}
+#choose .choose-div {
+    display: flex;
+}
+
+#choose .choose-div .left {
+    width: 50%;
+
+}
+
+#choose .choose-div .left p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 36px 0 0 0;
+    width: 487px;
+
+}
+
+#choose .choose-div .left h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 528px;
+    line-height: 34px;
+    color: #505050;
+    padding: 36px 0;
+}
+
+#choose .choose-div .left .box1 {
+    width: 56%;
+    padding: 0px 77px 0px 42px;
+    border-left: 5px solid #1CB9C8;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+    box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+}
+
+#choose .choose-div .left .box1 p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #505050;
+    padding: 10px 0;
+}
+
+#choose .choose-div .left .box1 h5 {
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    position: relative;
+
+}
+
+#choose .choose-div .left .box1 h5 i {
+    position: absolute;
+    right: 112px;
+    top: 18px;
+    color: #188EB2;
+    font-size: 16px;
+}
+#choose .choose-div .left .box2 {
+    width: 56%;
+    margin-top: 27px;
+    padding: 0px 77px 0px 42px;
+    border-left: 5px solid #1CB9C8;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+    box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+}
+#choose .choose-div .left .box2 h5 {
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    position: relative;
+
+}
+
+#choose .choose-div .left .box2 h5 i {
+    position: absolute;
+    right: 112px;
+    top: 18px;
+    font-size: 16px;
+}
+#choose .choose-div .left .box3 {
+    width: 56%;
+    padding: 0px 77px 0px 42px;
+    margin-top: 27px;
+    border-left: 5px solid #1CB9C8;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+    box-shadow: 0px 0px 15px 3px rgba(202, 202, 202, 0.48);
+}
+#choose .choose-div .left .box3 h5 {
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    position: relative;
+
+}
+
+#choose .choose-div .left .box3 h5 i {
+    position: absolute;
+    right: 112px;
+    top: 18px;
+    font-size: 16px;
+}
+#choose .choose-div .right {
+    width: 50%;
+    position: relative;
+}
+#choose .choose-div .right img {
+    position: absolute;
+    top: -27px;
+    z-index: 1;
+}
+#choose .choose-div .right .about-img{
+    position: absolute;
+    top: -26px;
+    right: -147px;
+    z-index: -1;
+}
+
+#choose .choose-div .left .title h3 {
+    text-transform: capitalize;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #188EB2;
+    margin-bottom: 10px;
+}
+
+#choose .choose-div .left .title .line {
+    width: 53px;
+    height: 2px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#choose .choose-div .left .title .line .circle {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ==================Choose End====================== */
+#project .project-div .title h3{
+    text-transform: capitalize;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #188EB2;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#project .project-div .title .line {
+    width: 53px;
+    height: 2px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#project .project-div .title .line .circle {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: white;
+}
+#project .project-div p{
+    width: 615px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+#project .project-div .items ul{
+    display: flex;
+    justify-content: center;
+    padding: 16px 22px;
+
+}
+#project .project-div .items ul li{
+    padding: 16px 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid black;
+    margin: 0 15px;
+    transition: all linear 0.4s;
+}
+#project .project-div .items ul li:hover{
+    background: #188EB2;
+    border-color: #188EB2;
+    color: white;
+
+}
+#project .project-div .project-image{
+    display: flex;
+    justify-content: center;
+}
+#project .project-div .project-image .image-div1{
+    width: 40%;
+    background: red;
+    height: 900px;
+    margin-right: 10px;
+}
+#project .project-div .project-image .image-div2{
+    width: 40%;
+    background: green;
+    height: 600px;
+    margin-left:10px;
+}
+#project .project-div .project-image .image-div1 .img1 img{
+    width: 100%;
+    
+
+}
+#project .project-div .project-image .image-div1 .img2 img{
+    width: 100%;
+    
+}
+/* #project .project-div .project-image .image-div1 .image2{
+    width:40%;
+    background: honeydew;
+    height: 900px;
+
+} */
